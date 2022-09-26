@@ -44,7 +44,7 @@
 			<div class="d-flex justify-content-center">
 				<div id="loginRegisForm" class="col-4 mt-3">
 					<h3 class="logRegisTitle">ASK A QUESTION!</h3>
-					<form:form action="/quest/new" method="post" modelAttribute="quest">
+					<form:form  action="/quest/new" method="post" modelAttribute="quest">
 						<div>
 							<form:label class="label" path="category">Category</form:label>
 							<form:select class="form-control" path="category">
