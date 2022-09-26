@@ -1,0 +1,111 @@
+@charset "ISO-8859-1";
+
+
+body{
+	background-color: rgb(26,27,26);
+}
+
+.ninja{
+	background-color:rgb(31,82,41);
+
+}
+
+.formContainer{
+	display: flex;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 30px;
+}
+
+.formItems{
+	border: 2px solid black;
+}
+
+.formInput{
+	width: 75%;
+}
+
+#loginRegisForm{
+	background-color:rgb(79,159,62);
+	border: 5px solid rgb(213,186,82);
+	border-radius: 30px;
+	padding: 10px;
+	height: auto;
+}
+
+.label{
+	color: rgb(213,186,82);
+	font-weight: bold;
+	padding-right: 1em;
+}
+
+#title{
+	border: 3px solid rgb(213,186,82);
+	border-radius: 30px;
+	background-color: rgb(245,245,245);
+	width: 300px;
+	margin:auto;
+	color: rgb(213,186,82);
+	padding: .25em;
+	font-weight: bold;
+}
+
+.logRegisTitle{
+	text-align: center;
+	color: rgb(213,186,82);
+}
+
+.buttonContainer{
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+}
+
+.button{
+	border: 3px solid rgb(213,186,82);
+	border-radius: 30px;
+	font-weight: bold;
+	padding: .75em;
+	background-color:rgb(31,82,41);
+	color: rgb(213,186,82);
+}
+
+#dashboard{
+	border: 3px solid rgb(213,186,82);
+	border-radius: 30px;
+	background-color: rgb(79,159,62);
+	width: 80%;
+	padding: 20px;
+}
+
+.dashAnc{
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	margin: .75em;
+}
+
+#dash{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#quest{
+	border: 3px solid rgb(213,186,82);
+	border-radius: 30px;
+	background-color: rgb(245,245,245);
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+#inco{
+	color: red;
+}
+
+.leaderBoard{
+	border: 3px solid rgb(213,186,82);
+	border-radius: 30px;
+	width: 25%;
+
+}
